@@ -23,6 +23,8 @@ const countdown_jazda = () => {
     `;
   } else {
     clearInterval(intervalId_jazda);
+    // Co sie gapisz, to i tak jest placeholder.
+    // Poczekaj na koniec licznika to się dowiesz co się stanie 19 Maja 
     countdownElement.innerHTML = "<h1>Wlasnie minelo 1000 dni daily</h1>";
   }
 };
