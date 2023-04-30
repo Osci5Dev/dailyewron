@@ -1,0 +1,50 @@
+.outlast-text {
+    font-size: 38px;
+    color: #45b654;
+    margin-top: 80px;  
+}
+
+
+#countdown_outlast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  #countdown_outlast div {
+    background-color: #45b654;
+    border-radius: 10px;
+    color: #143518;
+    font-size: 28px;
+    margin: 0 25px;
+    padding: 20px 0 20px;
+    text-align: center;
+    width: 30%;
+    max-width: 150px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  #countdown_outlast div span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 768px) {
+    #countdown_outlast div {
+      font-size: 8vw;
+      padding: 5px 0 5px;
+      margin: 0 10px;
+      width: 40%;
+      max-width: none;
+      margin-bottom: 15px;
+    }
+
+    #countdown_outlast div span {
+      font-size: 4vw;
+    }
+  }

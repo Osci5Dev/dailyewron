@@ -1,0 +1,49 @@
+.jazda-text {
+  font-size: 38px;
+  color: #457ab6;
+  margin-top: 80px;  
+}
+
+#countdown_jazda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  #countdown_jazda div {
+    background-color: #457ab6;
+    border-radius: 10px;
+    color: #142435;
+    font-size: 28px;
+    margin: 0 25px;
+    padding: 20px 0 20px;
+    text-align: center;
+    width: 30%;
+    max-width: 150px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  
+  #countdown_jazda div span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 768px) {
+    #countdown_jazda div {
+      font-size: 8vw;
+      padding: 5px 0 5px;
+      margin: 0 10px;
+      width: 40%;
+      max-width: none;
+      margin-bottom: 15px;
+    }
+
+    #countdown_jazda div span {
+      font-size: 4vw;
+    }
+  }
