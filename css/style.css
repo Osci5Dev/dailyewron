@@ -50,8 +50,15 @@ body {
     max-width: 200px;
     margin-bottom: 30px;
     box-sizing: border-box;
+    animation: blinker 1s linear infinite;
   }
   
+  @keyframes blinker {
+    100% {
+      background-color: #ff0000;
+    }
+  }
+
   #countdown div span {
     display: block;
     font-size: 22px;
